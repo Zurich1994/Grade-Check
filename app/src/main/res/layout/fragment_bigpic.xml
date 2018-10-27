@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bigpiclayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context="alexhao.fun.Fragment.BigPicFragment">
+
+    <alexhao.fun.Libs.photoview.PhotoView
+    android:id="@+id/bigpic"
+    android:src="@drawable/max90"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+        />
+</RelativeLayout>
